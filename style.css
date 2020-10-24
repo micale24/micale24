@@ -1,0 +1,156 @@
+
+ body {
+    padding: 5;
+    margin: 100px, 40px, 40px, 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7; 
+  }
+  
+ header {
+    background: white; 
+  }
+
+  .navbar {
+    padding: 20px;
+    overflow: hidden;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .logo{
+    width: 2px; height: 90px;
+    float: left;
+    padding: 10px 10px;
+    
+ }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: rgb(15, 5, 5);
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+
+
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: lightgray;
+  }
+  
+  .dropdown-content {
+    display: list-item;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(231, 223, 223, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: lightgray;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: teal;
+    text-align: center;
+  }
+
+  /*Color for the Header text and logo 
+  #43AFA0
+
+  
+  h2 {
+    /* font-size: 24px; */
+  }
+  
+  a {
+    /* color: #d21034; */
+  }
+  
+  /* Selecting elements by class */
+  /* .container {
+    width: 1024px;
+    margin: 0 auto; */
+  }
+  
+  /* Selecting elements by ID */
+  /* #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left; */
+  }
+  
+  #figure {
+    /* position: relative; */
+  }
+  
+  #bio-name {
+    /* position: absolute;
+    top: 150px;
+    left: 30px; */
+  }
+  
+  #main-bio {
+    /* width: 70%; */
+  }
+  
+  #contact-info {
+    /* width: 30%; */
+  }
+  
+  #bio-image {
+    /* width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  } */
+
+/* For comparisons page */
+  /* .box {
+    height: 400px;
+    padding: 20px;
+    color: #fff;
+    background: deepskyblue;
+  }
+  
+  .margin-top-80 {
+    margin-top: 80px;
+  } */
+  
+<style>

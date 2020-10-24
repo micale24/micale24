@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latitude</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="style1.css"> -->
+  <link rel="shortcut icon" type="image/png" href="./Visualizations/favicon-32x32.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .navbar a:hover,
+  .dropdown:hover .dropbtn,
+  .dropbtn:focus {
+    background-color: lightgray;
+  }
+  body {
+    background: lightgray;
+  }
+
+  /* .navbar-brand {
+    margin: 0px 10px -13px 10px;
+  } */
+
+  
+  #navbarDropdownMenuLink{
+    color: black;
+  }
+  .nav-link{
+    color: black;
+  }
+  h1{
+    color: lightseagreen;
+    text-align: center;
+  }
+  .fakeimg{
+    background-color: white;
+    margin-top: 20px;
+  }
+  .visImages {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h3{
+    color: lightseagreen;
+    text-align: center;
+  }
+  
+</style>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-sm bg-white navbar-black">
+    <a class="navbar-brand" href="index.html">
+      <img src="./Visualizations/latitudelogo.png" alt="logo" style="width:160px;"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="col-md-4">
+    <div class="fakeimg">
+      <h1 class="visuals">Comparisons: Latitude vs. X</h1>
+      <hr>
+      <div class="visImages">
+
+        <a class="maxtemp" href="comparisons.html">
+          <h3> vs. Max Temperature</h3>
+          <img src="./Visualizations/scatter1.png" alt="max temp" style="width:300px;">
+        </a>
+
+
+        <a class="humidity" href="comparisons.html">
+          <h3> vs. Humidity</h3>
+          <img src="./Visualizations/scatter2.png" alt="humidity" style="width:300px;">
+        </a>
+
+        <a class="cloudiness" href="comparisons.html">
+          <h3> vs. Cloudiness</h3>
+          <img src="./Visualizations/scatter3.png" alt="cloudiness" style="width:300px;">
+        </a>
+
+        <a class="windspeed" href="comparisons.html">
+          <h3> vs. Wind Speed</h3>
+          <img src="./Visualizations/scatter4.png" alt="windspeed" style="width:300px;">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
