@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirNext_Regular.ttf') format('ttf');
+}
+
+* {
+    font-family: Avenir;
+}
+
+nav {
+    background: rgb(1, 0, 34);
+    box-shadow: none;
+}
+
+nav ul {
+    margin-right: 2rem;
+}
+
+nav ul a {
+    color: rgba(225, 0, 151, 0.75);
+}
+
+#landing-section {
+    background: #010022;
+    height: calc(100vh - 64px);
+}
+
+#logo-container {
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+}
+
+#logo {
+    width: 25rem;
+}
+
+.mouse {
+    width: 30px;
+    height: 44px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background: transparent;
+    position: absolute;
+    bottom: 10rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.mouse .wheel {
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    left: 0;
+    right: 0;
+    -webkit-animation: magic-mouse 1.7s infinite ease;
+    animation: magic-mouse 1.7s infinite ease;
+}
+
+@keyframes magic-mouse {
+    0% {
+        margin-top: 6px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 18px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes magic-mouse {
+    0% {
+        margin-top: 6px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 18px;
+        opacity: 0;
+    }
+}
+
+.header.row {
+	font-size: 2rem;
+	margin: 1rem 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(225, 0, 151, 0.75);
+	text-shadow: 0 0 5px rgba(225, 0, 151, 0.75);
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+
+.static {
+    background: #010022;
+}
+
+
+.bg1::after {
+    background-image: url('../images/bg2.jpg');
+}
+
+.bg2::after {
+    background-image: url('../images/bg2.jpg');
+}
