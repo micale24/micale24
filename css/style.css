@@ -17,7 +17,7 @@ nav ul {
 }
 
 nav ul a {
-    color: rgba(225, 0, 151, 0.75);
+    color: rgba(39, 53, 240, 0.75);
 }
 
 #landing-section {
@@ -32,7 +32,7 @@ nav ul a {
 }
 
 #logo {
-    width: 25rem;
+    width: 10rem;
 }
 
 .mouse {
@@ -95,8 +95,8 @@ nav ul a {
 	margin: 1rem 0;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: rgba(225, 0, 151, 0.75);
-	text-shadow: 0 0 5px rgba(225, 0, 151, 0.75);
+	color: rgba(13, 55, 241, 0.75);
+	text-shadow: 0 0 5px rgba(247, 122, 39, 0.75);
 }
 
 .wrapper {
